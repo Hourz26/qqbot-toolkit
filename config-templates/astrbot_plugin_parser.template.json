@@ -1,0 +1,66 @@
+﻿{
+  "whitelist": [],
+  "blacklist": [],
+  "arbiter": true,
+  "require_at_in_group": true,
+  "enable_reply_parse": true,
+  "debounce_interval": 300,
+  "source_max_size": 90,
+  "source_max_minute": 15,
+  "audio_to_file": true,
+  "single_heavy_render_card": false,
+  "forward_threshold": 2,
+  "show_download_fail_tip": true,
+  "download_timeout": 280,
+  "download_retry_times": 2,
+  "common_timeout": 15,
+  "proxy": "",
+  "clean_cron": "30 2 * * *",
+  "parsers_template": [
+    {
+      "__template_key": "bilibili",
+      "enable": true,
+      "use_proxy": false,
+      "cookies": "",
+      "video_codecs": "AVC",
+      "video_quality": "_720P",
+      "video_codec_list": [
+        "AVC",
+        "AV1",
+        "HEV"
+      ]
+    },
+    {
+      "__template_key": "douyin",
+      "enable": true,
+      "use_proxy": false,
+      "cookies": ""
+    },
+    {
+      "__template_key": "kuaishou",
+      "enable": true,
+      "use_proxy": false,
+      "cookies": ""
+    },
+    {
+      "__template_key": "weibo",
+      "enable": true,
+      "use_proxy": false,
+      "cookies": ""
+    },
+    {
+      "__template_key": "xhs",
+      "enable": true,
+      "use_proxy": false,
+      "cookies": ""
+    },
+    {
+      "__template_key": "xiaoheihe",
+      "enable": true,
+      "use_proxy": false,
+      "cookies": "",
+      "show_body_text": true,
+      "video_send_mode": "first"
+    }
+  ]
+}

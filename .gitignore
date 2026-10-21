@@ -1,0 +1,43 @@
+# 缓存 / 运行产物
+__pycache__/
+*.pyc
+*.pyo
+
+# 备份与归档
+*.bak
+*.bak-*
+*.bak.*
+*.tar.gz
+*.tgz
+*.zip
+
+# 日志与临时
+*.log
+*.tmp
+temp/
+cache/
+_hotbak/
+logs/
+
+# 运行时数据库（体积大且含隐私）
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地私密配置（只提交 *.template.json）
+config-templates/*.json
+!config-templates/*.template.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key

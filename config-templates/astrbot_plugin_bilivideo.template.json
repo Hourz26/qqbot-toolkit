@@ -1,0 +1,68 @@
+{
+    "general": {
+        "debug_mode": false,
+        "processing_timeout": 600,
+        "user_cooldown_seconds": 8
+    },
+    "llm": {
+        "llm_provider": "astrbot",
+        "llm_provider_id": "",
+        "llm_api_base": "",
+        "llm_api_key": "",
+        "llm_model": "gpt-4o-mini",
+        "llm_temperature": 0.4
+    },
+    "summary": {
+        "note_style": "professional",
+        "enable_link": true,
+        "enable_summary": true,
+        "max_note_length": 3000,
+        "prefer_subtitle": true,
+        "subtitle_langs": "zh-Hans,zh,zh-CN,ai-zh,en,en-US",
+        "download_quality": "fast"
+    },
+    "render": {
+        "output_image": true,
+        "enable_auto_split": true,
+        "max_cards_per_image": 6,
+        "image_width": 900
+    },
+    "message": {
+        "enable_forward_message": false,
+        "forward_bot_name": "BiliVideo 助手",
+        "forward_bot_uin": "0",
+        "platform_prefix": "aiocqhttp"
+    },
+    "detect": {
+        "enable_miniapp_detect": true,
+        "detect_show_cover": true,
+        "detect_show_uploader": true,
+        "detect_show_desc": true,
+        "detect_show_pubtime": false,
+        "detect_show_link": false,
+        "detect_show_stats": true,
+        "detect_auto_summary": true,
+        "trigger_keywords": "总结,看看,看一下,看下,分析,讲的啥,讲什么,说的啥,说什么,内容,视频,这个,这视频,帮我看,帮忙看,解析,翻译,summary,summarize,analyze,video,watch,check,see"
+    },
+    "subscription": {
+        "enable_auto_push": false,
+        "auto_push_summary": true,
+        "check_interval_minutes": 600,
+        "max_subscriptions": 20,
+        "push_groups": "",
+        "push_users": ""
+    },
+    "access": {
+        "access_mode": "blacklist",
+        "group_list": ""
+    },
+    "search": {
+        "default_count": 20,
+        "default_download_count": 3,
+        "search_max_concurrent": 1,
+        "search_show_progress": true
+    },
+    "experimental": {
+        "enable_multi_platform": false
+    }
+}
